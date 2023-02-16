@@ -11,10 +11,10 @@ import EffectHookColour from './components/EffectHookColour'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <EffectHook />
+    {/* <EffectHook /> */}
     <ExampleSetState />
-    <EffectHookCount />
-    <EffectHookApi /> */}
-    <EffectHookColour />
+    {/* <EffectHookCount /> */}
+    {/* <EffectHookApi /> */}
+    {/* <EffectHookColour /> */}
   </React.StrictMode>,
 )

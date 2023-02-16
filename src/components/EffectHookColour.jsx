@@ -24,16 +24,16 @@ function MouseColor() {
     }
 
     window.addEventListener("mousemove", onMouseMove);
-    console.log("Comprando Halls!!")
+    console.log("Comprando Halls!!") //montaje
 
     return () => {
-      console.log("Se gastaron los Halls!! Sorry... Ups")
+      console.log("Se gastaron los Halls!! Sorry... Ups") //desmontaje
       window.removeEventListener("mousemove", onMouseMove);
     }
 
   },[]);
   
-  console.log("Qué te gusta un Halls...!!")
+  console.log("Qué te gusta un Halls...!!") //renderizar
 
   return <div style={{ height: "50vh", width: "50vw",background: color}}></div>
   

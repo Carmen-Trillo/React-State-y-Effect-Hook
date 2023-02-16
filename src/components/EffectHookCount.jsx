@@ -11,7 +11,13 @@ export default function Counter() {
     // interna a setCount puede utilizar un valor actualizado para count (llamado c en este callback).
 
     return () => clearInterval(id);
-  }, []); // ✅ Nuestro efecto no usa ninguna variable en el ámbito del componente
+  },); // ✅ Nuestro efecto no usa ninguna variable en el ámbito del componente
 
-  return <h1>{count}</h1>;
+  return (
+    <div>
+      <h1>¿Cuántos Halls llevas usado ya?</h1>
+      <h1>{count}</h1>
+      <h3>Madre mía, ¿tantos?</h3>
+    </div>
+  );
 }
